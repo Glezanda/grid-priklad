@@ -25,10 +25,9 @@ html { box-sizing: border-box; }
 .kontejner > div:nth-child(5n+8) { background-color: #9609a8;}
 
 /* ---------------------------------------------------- */
+/*  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: 100px 200px 400px 50px; */
 
 .kontejner{
   display: grid;
-  grid-template-columns: repeat(15, 1fr);
-  grid-template-rows: 100px 200px 400px 50px;
-
 }
