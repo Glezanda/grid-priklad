@@ -20,7 +20,7 @@ html { box-sizing: border-box; }
 .kontejner > div:nth-child(5n+3) { background-color: #3498db;}
 .kontejner > div:nth-child(5n+4) { background-color: #e74c3c;}
 .kontejner > div:nth-child(5n+5) { background-color: #1f086c;}
-.kontejner > div:nth-child(5n+6) { background-color: #0be751;}
+.kontejner > div:nth-child(5n+6) { background-color: #50f90d;}
 .kontejner > div:nth-child(5n+7) { background-color: #f7a90e;}
 .kontejner > div:nth-child(5n+8) { background-color: #9609a8;}
 
@@ -28,7 +28,7 @@ html { box-sizing: border-box; }
 
 .kontejner{
   display: grid;
-  grid-template-columns: 200px 400px 100px;
-  grid-template-rows: 150%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100px 200px 400px 50px;
 
 }
