@@ -33,3 +33,7 @@ html { box-sizing: border-box; }
   display: grid;
   gap: 50px;
 }
+.first{
+  display: grid;
+  background-color: aqua;
+}
