@@ -29,6 +29,7 @@ html { box-sizing: border-box; }
   grid-template-rows: 100px 200px 400px 50px; */
 
 .kontejner{
+  grid-template-columns: repeat(3, 1fr);
   display: grid;
   row-gap: 50;
 }
