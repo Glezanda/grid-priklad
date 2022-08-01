@@ -19,11 +19,12 @@ html { box-sizing: border-box; }
 .kontejner > div:nth-child(5n+2) { background-color: #f1c40f;}
 .kontejner > div:nth-child(5n+3) { background-color: #3498db;}
 .kontejner > div:nth-child(5n+4) { background-color: #e74c3c;}
-.kontejner > div:nth-child(5n+5) { background-color: #9b59b6;}
+.kontejner > div:nth-child(5n+5) { background-color: #1f086c;}
 
 /* ---------------------------------------------------- */
 
 .kontejner{
   display: grid;
   grid-template-columns: 200px, 400px, 100px;
+
 }
