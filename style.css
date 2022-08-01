@@ -31,5 +31,5 @@ html { box-sizing: border-box; }
 .kontejner{
   grid-template-columns: repeat(3, 1fr);
   display: grid;
-  row-gap: 50;
+  gap: 50px;
 }
